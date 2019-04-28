@@ -1,7 +1,7 @@
 body{
     background-color: cyan;
 }
-form{
+.form{
     padding-bottom: 10px;
     padding-top: 13px;
     padding-left: 15px;
@@ -11,3 +11,4 @@ form{
     border-top:3px solid peru;
     border-bottom:3px solid gainsboro;
 }
+

@@ -9,7 +9,11 @@ var triangleType =function home(){
     console.log(Height);
     console.log(Base);
 
-    if( Length === Height && Height=== Base && Base=== Length){
+    if(Length+Height<=Base || Height+Base<=Length || Length+Base<=Height){
+      alert("Not a Triangle");
+    }
+
+    else if( Length === Height && Height=== Base && Base=== Length){
         alert("Triangle is equilateral");
 }
 else if(Length === Height && Height !== Base){
@@ -18,6 +22,10 @@ else if(Length === Height && Height !== Base){
 else if(Height === Length && Length !== Base){
     alert("Triangle is Isosceles");
 }
+else if (Length !== Height && Height !== Base && Length!== Base){
+    alert("Triangle is Scalene");
+}
+
 }
 if(button){
     button.addEventListener('click',triangleType);

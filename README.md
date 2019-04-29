@@ -1,4 +1,4 @@
-# {Triangle Type}
+# Triangle Type
 #### Gives a detailed explanation on how types of triangles are shown,26/4/2019
 #### By **Kelvin Kariuki**
 ## Description

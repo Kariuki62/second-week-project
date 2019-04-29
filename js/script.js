@@ -22,7 +22,7 @@ else if(Length === Height && Height !== Base){
 else if(Height === Length && Length !== Base){
     alert("Triangle is Isosceles");
 }
-else if (Length !== Height && Height !== Base && Length!== Base){
+else {
     alert("Triangle is Scalene");
 }
 

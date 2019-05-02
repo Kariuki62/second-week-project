@@ -14,6 +14,7 @@ You can enjoy the code.
 | If all sides are equal                      | 3,3,3                   | Equilateral Triangle|
 | If two sides are equal                      | 9,9,14                  | IsoscelesTriangle   |
 | ALl side values are closer to each other    | 15,17,19                | Scalene Triangle    |
+Link to the live gh-pages- https://kariuki62.github.io/second-week-project/
 ## Known Bugs
 There are no known bugs 
 ## Technologies Used
